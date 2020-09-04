@@ -8,6 +8,7 @@ setup(
     version='1.0',
     author='littlebutt',
     license='MIT License',
+    url="https://github.com/littlebutt/Arcapi",
     description='An API for Arc Prober.',
     packages=packages,
     package_data={
