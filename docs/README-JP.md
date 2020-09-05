@@ -10,7 +10,7 @@
 
 当該APIを使いのために、[pypi](https://pypi.org/)をご利用してインストールできます。
 ```shell script
-$pip install Arcapi
+$pip install Arc-api
 ```
 
 ### 使い方

@@ -10,7 +10,7 @@
 
 首先，你可以通过 [pypi](https://pypi.org/)安装本Python库
 ```shell script
-$pip install Arcapi
+$pip install Arc-api
 ```
 
 ### 使用方法

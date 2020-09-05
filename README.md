@@ -10,7 +10,7 @@ Language: English/[中文](docs/README-CN.md)/[日本語](docs/README-JP.md)
 
 To use Arcapi, you can install it by [pypi](https://pypi.org/).
 ```shell script
-$pip install Arcapi
+$pip install Arc-api
 ```
 
 ### Usage
