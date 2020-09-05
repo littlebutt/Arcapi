@@ -47,8 +47,11 @@ class SyncApi(Api):
                 elif isinstance(_r, (bytes, bytearray)):
                     _data = json.loads(brotli.decompress(_r))
                     if _data['cmd'] == action:
-                        for _item in _data['data']:
-                            container.append(_item)
+                        if type(_data['data']) is list:
+                            for _item in _data['data']:
+                                container.append(_item)
+                    else:
+                        container.append(_data['data'])
         else:
             raise ArcUnknownException(_recv)
         return container

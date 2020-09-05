@@ -13,7 +13,8 @@ def test_async():
 
 def test_sync():
     api_ = SyncApi('000000002')
-    print("user info :", api_.userinfo())
+    print("constants :", api_.constants())
+
 
 
 def test():
